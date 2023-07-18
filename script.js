@@ -17,7 +17,7 @@ function progressScrtip() {
 
   function voltar() {
     progress -= 10;
-    if (progress <= 0) progress = 0;
+    if (progress < 0) progress = 0;
     update();
   }
 
