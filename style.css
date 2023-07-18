@@ -76,3 +76,32 @@
   color: #2e2e2e;
 }
 
+@media(max-width: 780px){
+  .container h1{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 600px){
+  .container h1{
+    font-size: 1.3rem;
+    margin-bottom: 24px;
+  }
+  .controles button{
+    padding: 8px 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+  }
+}
+
+@media(max-width: 400px){
+  .container h1{
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+  .controles button{
+    padding: 4px 6px;
+    font-size: .875rem;
+    font-size: .75rem;
+  }
+}
